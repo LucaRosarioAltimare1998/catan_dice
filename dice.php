@@ -46,8 +46,8 @@
         if(mysqli_query($conn, $sql)) {
 
           echo "<div class='mt-12'>";
-          echo "<p><img src='images/dice".$dice1.".png' alt='Dice 1' width='80'></p>";
-          echo "<p><img src='images/dice".$dice2.".png' alt='Dice 2' width='80'></p>";
+          echo "<p><img src='dice".$dice1.".png' alt='Dice 1' width='80'></p>";
+          echo "<p><img src='dice".$dice2.".png' alt='Dice 2' width='80'></p>";
           echo "<p>Total: <strong>" . $total . "</strong></p>";
           echo "</div>";
           
